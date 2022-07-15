@@ -1,0 +1,46 @@
+// links to all properties
+@use "colors" as*;
+@use "fonts" as*;
+@use "reused" as*;
+
+// headings start
+
+.headings {
+h2 {
+    text-shadow: 2px 2px 4px black;
+    $bgColor: aqua;
+    color: $bgColor;
+ 
+}
+
+p {
+    background-color: $bgColor;
+    color: $textcolor;
+    font-size: $fontsize;
+} 
+
+strong {
+    color:$sColor ;
+}
+}
+
+.objective { 
+
+    h3{
+        @include headings-h2;
+     
+    }
+}
+
+.list-items {
+    list-style-type: square;
+    list-style-position:outside;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+.list-files {
+    @extend .list-items;
+    background-color: aqua;
+}

@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.headings {
+   background: #d7dbdb ;
+   text-align: center;  
+}
+
+.headings h2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+word-spacing: 1em;
+padding: 10px;
+color: yellow;
+background-color: black;
+ 
+}
+
+.headings p{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.objective h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em;
+    color: white; 
+    
+}
+.objective hr{
+   border: 3px red solid;
+}
+
+.objective p{
+    text-indent:5%;
+    font-weight: 900;
+}
+
+
+.personal h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em;
+    color: white; 
+}
+.personal hr{
+   border: 3px red solid;
+}
+.personal ul{
+    list-style-type: square;
+    list-style-position:outside;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+.attended h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em;
+    color: white; 
+}
+.attended hr{
+    border: 3px red solid;
+ }
+ .attended p{
+    display: list-item;
+    list-style-type: square;
+    list-style-position:outside;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.experience h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em; 
+    color: white;
+}
+.experience hr{
+    border: 3px red solid;
+}
+.experience p{
+    display: list-item;
+    list-style-type: square;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-left: 50px;
+  
+ 
+}
+.experience strong{
+    text-transform: uppercase;
+}
+
+.experience em{
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.hobbies h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em; 
+    color: white;
+}
+
+.hobbies hr{
+    border: 3px red solid;
+}
+.hobbies p{
+    letter-spacing:1px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.referee h3{
+    background: black;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 1.5em; 
+    color: white;
+}
+
+.referee hr{
+    border: 3px red solid;
+}
+.referee p{
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.referee em{
+    letter-spacing: 3px;
+    font-style: normal;
+
+   
+}
